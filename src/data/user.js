@@ -30,6 +30,15 @@ const INFO = {
 
 	projects: [
 		{
+			title: "My Written Works",
+			description:
+				"My writing dump filled with my fictional works, literary analyses, and poetry.",
+			logo: "../book.svg",
+			linkText: "View Project",
+			link: "https://drive.google.com/drive/folders/1Mym2HM2JIWHtFFsB09xu6dFohoz-Bol1?usp=drive_link",
+		},
+
+		{
 			title: "Walnut",
 			description:
 				"A full stack Android application for students to manage course enrollment and timetable scheduling.",

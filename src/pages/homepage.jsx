@@ -26,6 +26,36 @@ const Homepage = () => {
 	const [stayLogo, setStayLogo] = useState(false);
 	const [logoSize, setLogoSize] = useState(80);
 	const [oldLogoSize, setOldLogoSize] = useState(80);
+	const [index, setIndex] = useState(0);
+    const [erasing, setErasing] = useState(false);
+    const [pause, setPause] = useState(false);
+    const [text, setText] = useState('');
+    const [delta, setDelta] = useState(50);
+    const cycle = [ "a data scientist.", "a fullstack developer.",  "an author." ]
+    useEffect(() => {
+        let clock = setInterval(() => {
+            update();
+        }, delta);
+        return () => { clearInterval(clock) };
+    }, [text]);
+    const update = () => {
+        let role = cycle[index % cycle.length];
+        let current = erasing ? role.substring(0, text.length - 1) : role.substring(0, text.length + 1);
+        setText(current);
+        if (erasing)
+            setDelta(100);
+        if (pause)
+            setDelta(50);
+        if (!erasing && current === role) {
+            setErasing(true);
+            setDelta(700);
+        } else if (erasing && current === '') {
+            setErasing(false);
+            setIndex(index + 1);
+            setDelta(600);
+            setPause(true);
+        }
+    }
 
 	useEffect(() => {
 		window.scrollTo(0, 0);
@@ -91,7 +121,10 @@ const Homepage = () => {
 						<div className="homepage-first-area">
 							<div className="homepage-first-area-left-side">
 								<div className="title homepage-title">
-									{INFO.homepage.title}
+									{`I am `}
+									<span className="txt-rotate">
+										<span className="wrap">{text}</span>
+									</span>
 								</div>
 
 								<div className="subtitle homepage-subtitle">

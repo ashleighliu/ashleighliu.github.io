@@ -80,7 +80,7 @@ const INFO = {
 				"My personal portfolio created for the purpose of self-teaching Javascript and React.",
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
 			linkText: "View Project",
-			link: "https://github.com",
+			link: "https://github.com/ashleighliu/ashleighliu.github.io",
 		},
 	],
 };

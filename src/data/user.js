@@ -22,7 +22,7 @@ const INFO = {
 		title: "I’m Ashleigh and I live in Toronto, where I'm discovering the potential of technology every day.",
 		description: (
 			<>
-			  I'm currently a third year student majoring in Computer Science, with a double minor in Statistics and English Literature at the University of Toronto.<br /><br />
+			  I'm currently a third year student majoring in Computer Science with a Software Engineering specialization at the University of Toronto (Fun fact: I have a second major in English Literature!).<br /><br />
 			  I've worked on a variety of projects over the years. I have a huge passion for programming and enjoy working on new projects, learning new languages, frameworks, and ways to program. I am always open to opportunities to learn new things, so feel free to reach out!
 			</>
 		  ),

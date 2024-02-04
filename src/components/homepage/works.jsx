@@ -17,7 +17,7 @@ const Works = () => {
 						<div className="work">
 							<img
 								src="./hubspot.png"
-								alt="hubspot"
+								alt="HubSpot"
 								className="work-image"
 							/>
 							<div className="work-title">hubspot</div>

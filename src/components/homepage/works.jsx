@@ -20,7 +20,7 @@ const Works = () => {
 								alt="HubSpot"
 								className="work-image"
 							/>
-							<div className="work-title">hubspot</div>
+							<div className="work-title">HubSpot</div>
 							<div className="work-subtitle">
 								Software Engineer Intern
 							</div>

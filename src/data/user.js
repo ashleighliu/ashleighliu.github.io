@@ -15,7 +15,7 @@ const INFO = {
 	homepage: {
 		title: "Full-stack developer, data lover, and amateur author.",
 		description:
-			"Hi, I'm Ashleigh! I'm a Computer Science student at the University of Toronto. Applying my knowledge to solve real-world problems is my life's mission. Check out my experiences below!",
+			"Hi, I'm Ashleigh! I'm a Computer Science + English student at the University of Toronto. Applying my knowledge to solve real-world problems is my biggest passion. Check out my experiences below!",
 	},
 
 	about: {

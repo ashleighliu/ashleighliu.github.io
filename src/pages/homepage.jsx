@@ -31,7 +31,7 @@ const Homepage = () => {
     const [pause, setPause] = useState(false);
     const [text, setText] = useState('');
     const [delta, setDelta] = useState(50);
-    const cycle = [ "a data scientist.", "a fullstack developer.",  "an author." ]
+    const cycle = [ "a writer.", "a full-stack developer.",  "front-end developer.", "a data enthusiast." ]
     useEffect(() => {
         let clock = setInterval(() => {
             update();

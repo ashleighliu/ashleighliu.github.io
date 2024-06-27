@@ -50,7 +50,7 @@ const Contact = () => {
 							<a href={`mailto:${INFO.main.email}`}>
 								{INFO.main.email}
 							</a>
-							if you'd like to discuss projects, opportunities, or just chat about books. I make an effort to respond to all messages within
+							{" "} if you'd like to discuss projects, opportunities, or just chat about books. I make an effort to respond to all messages within
 							24 hours. If you prefer to connect on
 							social media, you can find me on{" "}
 							<a

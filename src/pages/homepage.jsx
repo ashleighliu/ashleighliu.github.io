@@ -6,7 +6,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
 	faTwitter,
 	faGithub,
-	faStackOverflow,
+	faLinkedIn,
 	faInstagram,
 } from "@fortawesome/free-brands-svg-icons";
 
@@ -149,8 +149,8 @@ const Homepage = () => {
 
 							<a
 								href={INFO.socials.github}
-								target="_blank"
-								rel="noreferrer"
+								target="https://github.com/ashleighliu"
+								rel="https://github.com/ashleighliur"
 							>
 								<FontAwesomeIcon
 									icon={faGithub}
@@ -158,27 +158,18 @@ const Homepage = () => {
 								/>
 							</a>
 							<a
-								href={INFO.socials.stackoverflow}
-								target="_blank"
-								rel="noreferrer"
+								href={INFO.socials.linkedin}
+								target="https://www.linkedin.com/in/ashleigh-liu/"
+								rel="https://www.linkedin.com/in/ashleigh-liu/"
 							>
 								<FontAwesomeIcon
-									icon={faStackOverflow}
+									icon={faLinkedIn}
 									className="homepage-social-icon"
 								/>
 							</a>
+
 							<a
-								href={INFO.socials.instagram}
-								target="_blank"
-								rel="noreferrer"
-							>
-								<FontAwesomeIcon
-									icon={faInstagram}
-									className="homepage-social-icon"
-								/>
-							</a>
-							<a
-								href={`mailto:${INFO.main.email}`}
+								href="mailto:ashleigh.liu@mail.utoronto.ca"
 								target="_blank"
 								rel="noreferrer"
 							>

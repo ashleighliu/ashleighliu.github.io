@@ -50,8 +50,16 @@
         > during my undergrad.
       </p>
 
+      <p>In addition to my passion for technology and literature, I run a small anime store called <a
+        href="https://www.kireikorner.com/"
+        rel="noopener noreferrer nofollow"
+        target="_blank">Kirei Korner</a
+      >, blending my love for design and anime culture.
+
+      </p>
+
       <p>
-        Whether it's a hackathon, a poetry slam, or a job offer, I'm always
+        Whether it's a hackathon, an anime convention, or a job offer, I'm always
         looking for new opportunities. Want to connect? Reach out below!
       </p>
       <Contact />

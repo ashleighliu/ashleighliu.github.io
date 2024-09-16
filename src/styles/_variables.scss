@@ -6,44 +6,41 @@
 
 /** Fonts */
 
-$serif: 'Apple Garamond', Garamond, 'ITC Garamond Narrow', 'Palatino Linotype',
-  Palatino, Palladio, 'URW Palladio L', 'Book Antiqua', Baskerville,
-  'Bookman Old Style', 'Bitstream Charter', 'Nimbus Roman No9 L',
-  'New Century Schoolbook', 'Century Schoolbook', 'Century Schoolbook L',
+$serif: "Apple Garamond", Garamond, "ITC Garamond Narrow", "Palatino Linotype",
+  Palatino, Palladio, "URW Palladio L", "Book Antiqua", Baskerville,
+  "Bookman Old Style", "Bitstream Charter", "Nimbus Roman No9 L",
+  "New Century Schoolbook", "Century Schoolbook", "Century Schoolbook L",
   Georgia, serif;
 
 $sans-serif:
-  'SF Pro Display',
+  "SF Pro Display",
   -apple-system,
   BlinkMacSystemFont,
-  'Segoe UI',
+  "Segoe UI",
   Roboto,
   Helvetica,
   Arial,
   sans-serif,
-  'Apple Color Emoji',
-  'Segoe UI Emoji',
-  'Segoe UI Symbol';
+  "Apple Color Emoji",
+  "Segoe UI Emoji",
+  "Segoe UI Symbol";
 
-$funky: 'Lostar', $serif;
+$funky: "Lostar", $serif;
 
 /** Colors */
 /** Colors for Dark Mode with Cutesy Pastel Theme */
 
-$bg: #1C1C1C; /* Soft dark grey for the background */
-$primary: #D8BFD8; /* Light pastel purple for primary text */
-$secondary: #B39CD0; /* Slightly deeper pastel purple for secondary text */
-$accent: #F8DE7E; /* Pastel yellow for accents */
-$invert: #FFB6C1; /* Light pastel pink for inverted elements */
-
+$bg: #1c1c1c; /* Soft dark grey for the background */
+$primary: #d8bfd8; /* Light pastel purple for primary text */
+$secondary: #b39cd0; /* Slightly deeper pastel purple for secondary text */
+$accent: #f8de7e; /* Pastel yellow for accents */
+$invert: #ffb6c1; /* Light pastel pink for inverted elements */
 
 // $bg: #FFF8E7; /* Light pastel yellow */
 // $primary: #003366; /* Dark navy blue for primary text */
 // $secondary: rgba(0, 51, 102, 0.75); /* Soft navy blue for secondary text */
 // $accent: #7EC8E3; /* Light blue for accents */
 // $invert: #9c60e6; /* Darker pastel blue-grey for invert */
-
-
 
 /** Transitions */
 $ease: 300ms cubic-bezier(0.25, 0.1, 0.25, 1);

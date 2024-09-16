@@ -1,10 +1,10 @@
-import App from './App.svelte';
-import './styles/global.scss';
+import App from "./App.svelte";
+import "./styles/global.scss";
 
-const app = new App({ target: document.getElementById('app')!, intro: true });
+const app = new App({ target: document.getElementById("app")!, intro: true });
 
 const now = new Date();
-const uptime = now.getTime() - new Date('2003-10-01').getTime(),
+const uptime = now.getTime() - new Date("2003-10-01").getTime(),
   years = Math.floor(uptime / 31557600000),
   months = Math.floor(uptime / 2629800000 - years * 12),
   days = Math.floor(uptime / 86400000 - years * 365.25 - months * 30.4167);
@@ -39,16 +39,16 @@ const loaded = `
 `;
 
 const onLoad = () => {
-  if (process.env.NODE_ENV === 'production') {
+  if (process.env.NODE_ENV === "production") {
     console.log(loaded);
   }
 };
 
-if (document.readyState === 'complete') {
+if (document.readyState === "complete") {
   onLoad();
 } else {
-  window.addEventListener('load', onLoad);
-  document.removeEventListener('load', onLoad);
+  window.addEventListener("load", onLoad);
+  document.removeEventListener("load", onLoad);
 }
 
 export default app;

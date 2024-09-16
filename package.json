@@ -19,6 +19,7 @@
   "scripts": {
     "dev": "vite --host",
     "build": "vite build",
+    "preview": "vite preview",
     "serve": "vite preview",
     "lint": "svelte-check --tsconfig tsconfig.json  --fail-on-warnings",
     "format": "prettier --write src",

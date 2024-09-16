@@ -1,17 +1,17 @@
 {
-  "name": "navn-r.github.io",
+  "name": "ashleighliu.github.io",
   "version": "3.0.0",
   "type": "module",
   "author": "Ashleigh Liu",
   "description": "Portfolio Website",
   "license": "Unlicense",
-  "homepage": "https://github.com/navn-r/navn-r.github.io#readme",
+  "homepage": "https://github.com/ashleighliu/ashleighliu.github.io#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/navn-r/navn-r.github.io.git"
+    "url": "git+https://github.com/ashleighliu/ashleighliu.github.io.git"
   },
   "bugs": {
-    "url": "https://github.com/navn-r/navn-r.github.io/issues"
+    "url": "https://github.com/ashleighliu/ashleighliu.github.io/issues"
   },
   "engines": {
     "node": ">=18.x"

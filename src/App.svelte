@@ -26,12 +26,12 @@
         > in Boston, originally from Toronto, Canada.
       </p>
       <p>
-        I'm currently finishing up my final year at the
+        I graduated with a degree in Computer Science and English from the
         <a
           href="https://www.utoronto.ca/"
           rel="noopener noreferrer nofollow"
           target="_blank">University of Toronto</a
-        >, pursuing a double major in Computer Science and English. I've had the
+        > in 2025. I've had the
         pleasure of interning at
         <a
           href="https://www.citigroup.com/"
